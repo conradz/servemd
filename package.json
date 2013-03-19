@@ -1,0 +1,13 @@
+{
+    "name": "servemd",
+    "description": "Serve your Markdown files over HTTP",
+    "version": "0.0.0",
+    "main": "./servemd.js",
+    "bin": { "servemd": "./servemd.js" },
+    "preferGlobal": true,
+    "dependencies": {
+        "send": "*",
+        "marked": "*",
+        "nomnom": "*"
+    }
+}
